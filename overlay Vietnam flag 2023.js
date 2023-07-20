@@ -14,7 +14,7 @@ if (window.top !== window.self) {
         // Load the image
         const image = document.createElement("img");
         // image.src = "https://cdn.mirai.gg/tmp/dotted-place-template.png";
-        image.src = "https://raw.githubusercontent.com/t3bol90/flag-of-vietnam-rplace2022/main/flag.png";
+        image.src = "https://github.com/MonHauVD/flag-of-vietnam-rplace2023/blob/7faa4e089d2193cd232bd9d36af1aaaf59ef4dd6/Co%20Viet%20Nam%201.0.png";
         image.onload = () => {
             image.style = `position: absolute; left: 0; top: 0; width: ${image.width/3}px; height: ${image.height/3}px; image-rendering: pixelated; z-index: 1`;
         };
